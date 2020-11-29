@@ -1,0 +1,7 @@
+.statistic {
+  display: flex;
+
+  :not(:last-child) {
+    margin-right: 20px;
+  }
+}

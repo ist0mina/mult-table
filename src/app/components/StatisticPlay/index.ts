@@ -1,0 +1,1 @@
+export { StatisticPlay } from './StatisticPlay';
