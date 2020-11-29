@@ -29,7 +29,7 @@ export const Board: FC = memo(() => {
             <div>
                 <Button onClick={start}>{titleBtn}</Button>
             </div>
-            <div>
+            <section className="task-list">
                 {taskList.map((task) => (
                     <TaskItem
                         key={task.id}
@@ -38,7 +38,7 @@ export const Board: FC = memo(() => {
                         result={userResults[task.id]}
                     />
                 ))}
-            </div>
+            </section>
         </section>
     );
 });
