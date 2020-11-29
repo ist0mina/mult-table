@@ -1,13 +1,18 @@
 .task-item {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 50px max-content 50px max-content 70px max-content;
-  grid-gap: 10px;
-  align-items: center;
-  padding-bottom: 20px;
-
   &__sign {
     font-size: 20px;
     font-weight: bold;
+  }  
+
+  &__result {
+    width: 70px !important;
+  }
+
+  .ant-input {
+    width: 50px;   
+  }
+
+  .ant-input[disabled] {
+    color: rgba(0, 0, 0, 0.8);
   }
 }
